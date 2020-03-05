@@ -1,0 +1,37 @@
+P5：
+
+a.  (10 cars)/(5 cars/minute)=2 minutes. 150 km/(100 km/hour)=1.5 hours=90 minutes. 
+      the total time should be 2×3+90×2 =186 minutes
+
+b. (8 cars)/(5 cars/minute)=1.6 minutes. 
+      The total time should be 1.6×3+90×2 =184.8 minutes
+      
+P17:
+
+a. dend-end = ∑1N (dproc + dtrans + dprop)
+
+b. total queuing delay = N × dqueue, so dend-end = ∑1N (dproc + dtrans + dprop) + N × dqueue
+
+P27
+
+a.
+
+d_prop = 20000km / (2.5*10^8 m/s) = 0.08s
+
+R·d_prop = 1Gbps * 0.08s = 8*10^7 bits
+
+b.
+
+The theoretical maximum of bits in the link is R·d_prop=8*10^7.
+
+8*10^5 bits < 8*10^7 bits,
+
+so the bits can not fill the link.
+
+The maximum number of bits is 8*10^5.
+
+c.
+
+2*10^7 m/ 8*10^7 bits = 0.25m/bit,
+
+The width of a bit is 0.25m.
